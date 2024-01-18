@@ -62,7 +62,7 @@ body {
     align-self: center;
 }
 .wrap {
-    height: 28%;
+    height: 30%;
     width: 100%;
     background-color: white;
     box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2);
@@ -78,7 +78,7 @@ form {
 .form {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 80%;
     gap: 10%;
     margin-top: 20px;
 }
@@ -98,4 +98,16 @@ input {
     height: 30px;
     width: 100%;
     border-radius: 5px;
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+}
+input:focus {
+    outline: 1px solid blue;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.4);
+}
+input:invalid {
+    outline: 1px solid red;
 }
