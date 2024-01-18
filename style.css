@@ -111,3 +111,48 @@ input:focus {
 input:invalid {
     outline: 1px solid red;
 }
+.bottom-text {
+    height: 20%;
+    width: 85%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+button {
+    padding: 12px 48px;
+    color: white;
+    background-color: rgb(197, 113, 127);
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    width: 40%;
+}
+button:hover {
+    background-color: rgb(179, 100, 113);
+    cursor: pointer;
+}
+button:active {
+    background-color: rgb(197, 113, 127);
+}
+.bottom-text a {
+    text-decoration: none;
+    color: rgb(197, 113, 127);
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+.bottom-text p {
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+.invalid {
+    outline: 1px solid red;
+}
+.hidden {
+    display: none;
+}
+#pw {
+    color: red;
+}
